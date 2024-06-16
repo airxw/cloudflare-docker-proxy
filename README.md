@@ -1,18 +1,19 @@
 # cloudflare-docker-proxy
 
-![deploy](https://github.com/ciiiii/cloudflare-docker-proxy/actions/workflows/deploy.yaml/badge.svg)
+![deploy](https://github.com/airxw/cloudflare-docker-prox/actions/workflows/deploy.yaml/badge.svg)
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ciiiii/cloudflare-docker-proxy)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/airxw/cloudflare-docker-prox)
 
 > If you're looking for proxy for helm, maybe you can try [cloudflare-helm-proxy](https://github.com/ciiiii/cloudflare-helm-proxy).
 
-## Deploy
+## Deploy![image](https://github.com/airxw/cloudflare-docker-proxy/assets/39895866/9073d38e-f192-44a1-a69e-e871dbcff1b0)
+
 
 1. fork this project
 2. modify the link of the above button to your fork url
 3. click the button, you will be redirected to the deploy page
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ciiiii/cloudflare-docker-proxy)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/airxw/cloudflare-docker-prox(https://github.com/airxw/cloudflare-docker-prox))
 
 ## Config tutorial
 
@@ -30,11 +31,11 @@
    - add more records and modify the config as you need
    ```javascript
    const routes = {
-     "docker.libcuda.so": "https://registry-1.docker.io",
-     "quay.libcuda.so": "https://quay.io",
-     "gcr.libcuda.so": "https://k8s.gcr.io",
-     "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-     "ghcr.libcuda.so": "https://ghcr.io",
+     "docker.itfans.eu.org": "https://registry-1.docker.io",
+     "quay.itfans.eu.org": "https://quay.io",
+     "gcr.itfans.eu.org": "https://k8s.gcr.io",
+     "k8s-gcr.itfans.eu.org": "https://k8s.gcr.io",
+     "ghcr.itfans.eu.org": "https://ghcr.io",
    };
    ```
 
